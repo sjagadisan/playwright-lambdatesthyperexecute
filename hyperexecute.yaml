@@ -1,0 +1,25 @@
+version: "0.1"
+runson: linux
+
+matrix:
+  os: [linux, windows]
+  browser: [chromium, webkit]
+
+parallelism: 2
+
+env:
+  BASE_URL: "https://www.lambdatest.com/selenium-playground/"
+
+pre:
+  - yarn install
+  - npx playwright install --with-deps
+
+testDiscovery:
+  type: raw
+  command: find tests -name "*.spec.ts"
+
+testRunnerCommand: npx playwright test
+
+partialReports:
+  location: playwright-report
+  type: html

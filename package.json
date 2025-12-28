@@ -1,0 +1,16 @@
+{
+  "name": "playwright-test-suite",
+  "version": "1.0.0",
+  "author": "LambdaTest",
+  "description": "Sample project to run playwright tests using playwright runner on LambdaTest platform",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "npx playwright test --config=./playwright.config.ts"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^20.0.0"
+  }
+}

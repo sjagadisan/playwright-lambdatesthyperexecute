@@ -1,0 +1,137 @@
+{
+    "id": "1e8717b1-ed37-4720-b9ea-8d06ac2335eb",
+    "created_at": "2025-12-27T23:41:10Z",
+    "update_at": "2025-12-27T23:42:51Z",
+    "global_timeout": 90,
+    "tunnel_name": "",
+    "start_time": "2025-12-27T23:41:20Z",
+    "end_time": "2025-12-27T23:42:51Z",
+    "summary": {
+        "total_time": 91000000000,
+        "execution_time": 91000000000,
+        "total_tasks": 4,
+        "build_time_consumed": 179000000000,
+        "jobTestExecutionTime": "0s",
+        "failed_tasks": 0,
+        "total_stage_info": {
+            "prerun": {
+                "StageFailedPercent": 0,
+                "StagePassPercent": 100,
+                "TotalStage": 4
+            }
+        },
+        "status": "completed",
+        "job_link": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=1e8717b1-ed37-4720-b9ea-8d06ac2335eb"
+    },
+    "tasks": [
+        {
+            "id": "HYPL-2409230-1766878879687949503XUR",
+            "os": "linux",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2025-12-27T23:41:19Z",
+            "update_at": "2025-12-27T23:42:14Z",
+            "start_time": "2025-12-27T23:41:20Z",
+            "end_time": "2025-12-27T23:42:14Z",
+            "group_number": 1,
+            "stages": [
+                {
+                    "id": "e37a97f9-3e30-48fa-825b-452f3889c3d4",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2025-12-27T23:41:21Z",
+                    "started_at": "2025-12-27T23:41:21Z",
+                    "updated_at": "2025-12-27T23:42:14Z",
+                    "order": 1,
+                    "task_number": 1
+                }
+            ]
+        },
+        {
+            "id": "HYPL-2409230-1766878879692882852WWI",
+            "os": "linux",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2025-12-27T23:41:19Z",
+            "update_at": "2025-12-27T23:41:59Z",
+            "start_time": "2025-12-27T23:41:20Z",
+            "end_time": "2025-12-27T23:41:59Z",
+            "group_number": 2,
+            "stages": [
+                {
+                    "id": "ed013f36-d7c7-4289-81d2-f954914a129a",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2025-12-27T23:41:21Z",
+                    "started_at": "2025-12-27T23:41:21Z",
+                    "updated_at": "2025-12-27T23:41:58Z",
+                    "order": 1,
+                    "task_number": 2
+                }
+            ]
+        },
+        {
+            "id": "HYPL-2409230-1766878879697688887BPE",
+            "os": "linux",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2025-12-27T23:41:19Z",
+            "update_at": "2025-12-27T23:42:51Z",
+            "start_time": "2025-12-27T23:41:59Z",
+            "end_time": "2025-12-27T23:42:51Z",
+            "group_number": 3,
+            "stages": [
+                {
+                    "id": "8347dd36-f1c2-479b-8324-960c8b29e561",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2025-12-27T23:42:00Z",
+                    "started_at": "2025-12-27T23:42:00Z",
+                    "updated_at": "2025-12-27T23:42:51Z",
+                    "order": 1,
+                    "task_number": 3
+                }
+            ]
+        },
+        {
+            "id": "HYPL-2409230-1766878879702165477SSS",
+            "os": "linux",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2025-12-27T23:41:19Z",
+            "update_at": "2025-12-27T23:42:49Z",
+            "start_time": "2025-12-27T23:42:15Z",
+            "end_time": "2025-12-27T23:42:49Z",
+            "group_number": 4,
+            "stages": [
+                {
+                    "id": "cb7ef1c6-85fd-4f1e-9492-7e28b8196988",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2025-12-27T23:42:16Z",
+                    "started_at": "2025-12-27T23:42:15Z",
+                    "updated_at": "2025-12-27T23:42:49Z",
+                    "order": 1,
+                    "task_number": 4
+                }
+            ]
+        }
+    ],
+    "test_ids": null
+}
